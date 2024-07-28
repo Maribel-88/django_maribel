@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
-if os.path.isfile('env.py'):
+if os.path.isfile(" env.py"):
     import env
 
 
@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-)yjlg^mibx$2zfzv8b^qb@3=crquq5eq*$(-nflm-)7t(wrb@!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-maribel88-djangomaribel-8dwr7uello3.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['django-maribel-882a656b44b9.herokuapp.com']
 
 
 # Application definition
